@@ -1,14 +1,27 @@
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
 function App() {
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const updateWidth = (e) => {
+    setWindowWidth(window.innerWidth)
+    console.log(windowWidth);
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updateWidth)
+  })
+
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <About />
+      <Hero windowWidth={windowWidth}/>
+      <About/>
     </div>
   );
 }
