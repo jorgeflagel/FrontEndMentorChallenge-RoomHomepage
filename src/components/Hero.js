@@ -36,8 +36,9 @@ const Container = styled.div`
             cursor: pointer;
             line-height: 16px;
             margin-top: 40px;
+            color: #A0A0A0;
             &:visited {
-                color: black;
+                color: #A0A0A0;
             }
         }
     }
@@ -54,6 +55,7 @@ const Container = styled.div`
             a {
                 margin-top: 10px;
             }
+            
         }
         &>img {
             width: 58%;
@@ -93,7 +95,7 @@ export default function Hero({windowWidth}) {
                 <div className="text_container">
                     <h2>{HERO_INFO[slide].title}</h2>
                     <p>{HERO_INFO[slide].text}</p>
-                    <a href="/">Shop Now <img src="./images/icon-arrow.svg" alt="" width={40}/></a>
+                   <p><a href="/">Shop Now<img src="./images/icon-arrow.svg" alt="" width={40}/></a></p>
                 </div>
                 <Arrows setSlide={setSlide} slideLength={HERO_INFO.length}/>
             </div>

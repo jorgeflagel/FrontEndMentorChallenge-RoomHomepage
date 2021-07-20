@@ -14,7 +14,7 @@ const Container = styled.div`
         align-items: center;
         justify-content: space-around;
         &:hover {
-            background-color: gray;
+            background-color: #444444;
         }
     }
     img {
