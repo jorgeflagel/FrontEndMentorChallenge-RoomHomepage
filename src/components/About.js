@@ -17,7 +17,7 @@ const Container = styled.div`
         h2 {
             font-weight: 700;
             letter-spacing: 5px;
-            font-size: 12px;
+            font-size: 14px;
         }
         p {
             line-height: 20px;
