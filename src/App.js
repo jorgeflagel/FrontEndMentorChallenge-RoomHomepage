@@ -10,11 +10,11 @@ function App() {
 
   const updateWidth = (e) => {
     setWindowWidth(window.innerWidth)
-    console.log(windowWidth);
   }
 
   useEffect(() => {
-    window.addEventListener("resize", updateWidth)
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
   })
 
   return (
