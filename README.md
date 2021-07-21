@@ -35,7 +35,7 @@ Your users should be able to:
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions/react-with-styledcomponents-jVZGsVHLS)
+- [Solution](https://www.frontendmentor.io/solutions/reactjs-with-styledcomponents-DfMpmAuQ-)
 - [Live Site](https://frontendmentorchallenge-roomhomepage.vercel.app/)
 
 ## My process
