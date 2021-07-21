@@ -6,7 +6,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 419px;
+    min-height: 100vh;
     &>div {
         display: flex;
         flex-direction: column;
@@ -44,6 +44,7 @@ const Container = styled.div`
     }
     @media screen and (min-width: 900px) {
         flex-direction: row;
+        min-height: 60vh;
         &>div {
             width: 42%;
             gap: 22px;

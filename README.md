@@ -30,8 +30,8 @@ Your users should be able to:
 
 ### Screenshot
 
-![Page of the light mode](./screenshot1.png)
-![Previous of the dark mode](./screenshot2.png)
+![Desktop](./screenshot1.png)
+![Mobile](./screenshot2.png)
 
 ### Links
 

@@ -5,7 +5,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 310px;
+    min-height: 100vh;
     &>div {
         text-aling: left;
         font-size: 12px;
@@ -14,6 +14,7 @@ const Container = styled.div`
         flex-direction: column;
         gap: 9px;
         align-self: center;
+        flex-grow: 1;
         h2 {
             font-weight: 700;
             letter-spacing: 5px;
@@ -26,6 +27,7 @@ const Container = styled.div`
     }
     @media screen and (min-width: 900px) {
         flex-direction: row;
+        min-height: 40vh;
         &>img:first-child {
             width: 29%;
         }

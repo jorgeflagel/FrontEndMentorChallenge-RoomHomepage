@@ -1,8 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+
+
+const Container = styled.div`
+  @media screen and (min-width: 900px) {
+    min-height: 100vh;
+  }
+`
 
 function App() {
 
@@ -18,11 +26,11 @@ function App() {
   })
 
   return (
-    <div className="App">
+    <Container className="App">
       <Navbar />
       <Hero windowWidth={windowWidth}/>
       <About/>
-    </div>
+    </Container>
   );
 }
 
